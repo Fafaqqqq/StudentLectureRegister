@@ -1,0 +1,6 @@
+PassengerAppRoot /home/fafaq/StudentLectureRegister/server/nodejs_app/www
+PassengerAppType node
+PassengerStartupFile index.js
+PassengerNodejs /usr/bin/node
+PassengerRestartDir /home/fafaq/StudentLectureRegister/server/nodejs_tmp/www
+PassengerFriendlyErrorPages on
