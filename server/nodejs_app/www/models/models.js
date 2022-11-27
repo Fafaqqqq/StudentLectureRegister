@@ -25,7 +25,9 @@ const Lectur = database.define('lectur', {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
     start: { type: DataTypes.DATE, allowNull: false },
     end: { type: DataTypes.DATE, allowNull: false },
-    subject: { type: DataTypes.STRING, allowNull: false }
+    subject: { type: DataTypes.STRING, allowNull: false },
+    location_x: { type: DataTypes.FLOAT, allowNull: false, defaultValue: -1.0 },
+    location_y: { type: DataTypes.FLOAT, allowNull: false, defaultValue: -1.0 }
 })
 
 const Answer = database.define('answer', {

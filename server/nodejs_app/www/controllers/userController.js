@@ -52,7 +52,6 @@ class UserController {
     }
 
     const token = generateJwt(user.id, user.email, user.role)
-    // sleep(60000)
     return res.json({ token })
   }
 
